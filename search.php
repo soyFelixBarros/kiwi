@@ -46,9 +46,9 @@
 			
 				<div class="post-nav archive-nav">
 			
-					<?php echo get_next_posts_link( __( 'Más viejo', 'kiwi' ) . '<span>' . __( 'publicaciones', 'kiwi' ) . '</span>' ); ?>
+					<?php echo get_next_posts_link( __( 'Antiguas ', 'kiwi' ) . '<span>' . __( 'publicaciones', 'kiwi' ) . '</span>' ); ?>
 								
-					<?php echo get_previous_posts_link( __( 'Más nuevo', 'kiwi' ) . '<span>' . __( 'publicaciones', 'kiwi' ) . '</span>' ); ?>
+					<?php echo get_previous_posts_link( __( 'Nuevas ', 'kiwi' ) . '<span>' . __( 'publicaciones', 'kiwi' ) . '</span>' ); ?>
 					
 					<div class="clear"></div>
 					

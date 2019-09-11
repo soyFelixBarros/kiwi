@@ -52,9 +52,9 @@ if ( have_comments() ) : ?>
 			
 				<h3 class="assistive-text section-heading"><?php _e( 'Comentario de navegación', 'kiwi' ); ?></h3>
 				
-				<div class="post-nav-older"><?php previous_comments_link( '&laquo; ' . __('Más viejo','kiwi') . '<span> ' . __('Comentarios', 'kiwi') . '</span>'); ?></div>
+				<div class="post-nav-older"><?php previous_comments_link( '&laquo; ' . __('Antiguos ','kiwi') . '<span> ' . __('Comentarios', 'kiwi') . '</span>'); ?></div>
 				
-				<div class="post-nav-newer"><?php next_comments_link( __('Más nuevo','kiwi') . '<span> ' . __('Comentarios', 'kiwi') . '</span>  &raquo;' ); ?></div>
+				<div class="post-nav-newer"><?php next_comments_link( __('Nuevos ','kiwi') . '<span> ' . __('Comentarios', 'kiwi') . '</span>  &raquo;' ); ?></div>
 				
 				<div class="clear"></div>
 				
