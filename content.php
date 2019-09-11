@@ -70,7 +70,7 @@
 					
 			<p class="post-categories"><?php _e( 'Categorias:', 'kiwi' ); ?> <?php the_category( ', ' ); ?></p>
 		
-			<p class="post-tags"><?php the_tags( __( 'Tags:', 'kiwi' ) . ' ', ', '); ?></p>
+			<p class="post-tags"><?php the_tags( __( 'Etiquetas:', 'kiwi' ) . ' ', ', '); ?></p>
 		
 		</div>
 		
