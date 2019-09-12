@@ -41,9 +41,9 @@
 			
 				<div class="post-nav archive-nav">
 				
-					<?php echo get_next_posts_link( __( '&laquo; <span>Publicaciones</span> anteriores', 'kiwi' ) ); ?>
+					<?php echo get_next_posts_link( __( '&laquo; Anteriores', 'kiwi' ) ); ?>
 								
-					<?php echo get_previous_posts_link( __( '<span>Publicaciones</span> nuevas &raquo;', 'kiwi' ) ); ?>
+					<?php echo get_previous_posts_link( __( 'Nuevas &raquo;', 'kiwi' ) ); ?>
 					
 					<div class="clear"></div>
 					
