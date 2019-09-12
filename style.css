@@ -273,7 +273,7 @@ input#s {
 
 
 body > .navigation {
-	display: none;
+	/* display: none; */
 	background: #2D3642;
 }
 
@@ -282,7 +282,7 @@ body > .navigation {
 
 
 .nav-toggle {
-	display: block;
+	display: none;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -2210,6 +2210,9 @@ p.form-allowed-tags {
 
 @media (max-width: 770px) {
 
+	body > .navigation {
+		display: none;
+	}
 
 	/* Header --------------------------------------- */
 
@@ -2245,6 +2248,10 @@ p.form-allowed-tags {
 	
 	.navigation a,
 	.navigation .search-form #s { font-size: 14px; }
+
+	.nav-toggle {
+		display: block;
+	}
 	
 	.blog-menu li ul {
 		display: block;
