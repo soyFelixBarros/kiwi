@@ -913,7 +913,7 @@ em, q {  font-style: italic;  }
 
 abbr, acronym { cursor: help; }
 
-code, kbd, pre {
+kbd, pre {
 	font-size: 0.85em;
 	background: #EEE;
 	font-family: Menlo, Monaco, monospace;
@@ -925,8 +925,7 @@ code, kbd, pre {
 	padding: 2px 3px;
 }
 
-.post-content kbd,
-.post-content code {
+.post-content kbd {
 	padding: 5px;
 	border-radius: 3px;
 }
