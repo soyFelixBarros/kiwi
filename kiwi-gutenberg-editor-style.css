@@ -115,8 +115,9 @@ p.has-drop-cap:not(:focus):first-letter {
 }
 
 kbd,
+pre,
 samp {
-	background: #f4f4f4;
+	/* background: #f4f4f4; */
 	border: none;
 	border-radius: 0;
 	font-size: .7em;
