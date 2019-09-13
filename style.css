@@ -96,12 +96,12 @@ body {
 }
 
 body a {
-	color: #7acd8e;
+	color: #1abc9c;
 	text-decoration: none;
 }
 
 body a:hover {
-	color: #7acd8e;
+	color: #1abc9c;
 	text-decoration: none;
 }
 
@@ -210,7 +210,7 @@ input#s {
 	margin: 0 auto;
 }
 
-.header { background: #7acd8e; }
+.header { background: #1abc9c; }
 
 .header-inner {
 	padding: 50px 0;
@@ -541,7 +541,7 @@ iframe, object, video { border: none; max-width: 100%; }
 	text-indent: -9999px;
 }
 
-.post-bubbles a:hover { background-color: #7acd8e; }
+.post-bubbles a:hover { background-color: #1abc9c; }
 
 a.format-bubble {
 	height: 44px;
@@ -698,7 +698,7 @@ html[xmlns] .slides { display: block; }
 }
 
 .format-quote .post-content blockquote cite a:hover {
-	color: #7acd8e;
+	color: #1abc9c;
 	text-decoration: none;
 }
 
@@ -719,7 +719,7 @@ html[xmlns] .slides { display: block; }
 	color: #666;
 }
 
-.single-format-quote .post-content blockquote cite a { color: #7acd8e; }
+.single-format-quote .post-content blockquote cite a { color: #1abc9c; }
 .single-format-quote .post-content blockquote cite a:hover { text-decoration: underline; }
 
 
@@ -814,7 +814,7 @@ html[xmlns] .slides { display: block; }
 .post-nav .post-nav-newer { float: right; }
 
 .post-nav a:hover {
-	background: #7acd8e;
+	background: #1abc9c;
 	color: #FFF;
 }
 
@@ -1147,7 +1147,7 @@ img.alignnone,
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding: 10px 12px;
-	background: #7acd8e;
+	background: #1abc9c;
 	color: #fff;
 }
 
@@ -1211,7 +1211,7 @@ img.alignnone,
 .post-content input[type="reset"]:hover,
 .post-content input[type="button"]:hover {
 	cursor: pointer;
-	background: #7acd8e;
+	background: #1abc9c;
 	color: #fff;
 }
 
@@ -1225,8 +1225,8 @@ img.alignnone,
 
 .post-content .has-background { background-color: #444; }
 
-.post-content .has-accent-color { color: #7acd8e; }
-.post-content .has-accent-background-color { background-color: #7acd8e; }
+.post-content .has-accent-color { color: #1abc9c; }
+.post-content .has-accent-background-color { background-color: #1abc9c; }
 
 .post-content .has-black-color { color: #111; }
 .post-content .has-black-background-color { background-color: #111; }
@@ -1711,7 +1711,7 @@ p.logged-in-as {
 
 .comment-form input[type="submit"]:hover {
 	cursor: pointer;
-	background-color: #7acd8e;
+	background-color: #1abc9c;
 	color: #FFF;
 }
 
@@ -1948,7 +1948,7 @@ p.form-allowed-tags {
 }
 
 .tagcloud a:hover {
-	background: #7acd8e;
+	background: #1abc9c;
 	text-decoration: none;
 	color: #FFF;
 }
@@ -1964,7 +1964,7 @@ p.form-allowed-tags {
 	text-align: center;
 }
 
-#wp-calendar a { color: #7acd8e; }
+#wp-calendar a { color: #1abc9c; }
 
 #wp-calendar,
 #wp-calendar caption,

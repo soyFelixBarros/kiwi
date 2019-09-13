@@ -495,7 +495,7 @@ class kiwi_customize {
 
 		// Add a setting for accent color
 		$wp_customize->add_setting( 'accent_color', array(
-			'default' 			=> '#7acd8e', 
+			'default' 			=> '#1abc9c', 
 			'sanitize_callback' => 'sanitize_hex_color',
 			'transport' 		=> 'postMessage', 
 			'type' 				=> 'theme_mod', 
@@ -600,7 +600,7 @@ if ( ! function_exists( 'kiwi_add_gutenberg_features' ) ) :
 
 		/* Gutenberg Palette --------------------------------------- */
 
-		$accent_color = get_theme_mod( 'accent_color' ) ? get_theme_mod( 'accent_color' ) : '#7acd8e';
+		$accent_color = get_theme_mod( 'accent_color' ) ? get_theme_mod( 'accent_color' ) : '#1abc9c';
 
 		add_theme_support( 'editor-color-palette', array(
 			array(
